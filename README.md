@@ -1,6 +1,6 @@
 # Sudoku_solver
 
-Description
+#Description
 
 The Sudoku Solver is a C++ program designed to solve Sudoku puzzles. It uses a backtracking algorithm to fill in the empty cells of a 9x9 Sudoku grid, ensuring the solution adheres to the rules of Sudoku:
 
@@ -10,7 +10,7 @@ Each column must contain the numbers 1-9 without repetition.
 
 Each 3x3 sub-grid must contain the numbers 1-9 without repetition.
 
-Features
+#Features
 
 Backtracking Algorithm: Efficiently solves any valid 9x9 Sudoku puzzle.
 
@@ -18,7 +18,7 @@ Dynamic Input: Handles puzzles with varying numbers of pre-filled cells.
 
 Validation: Ensures that the solution respects all Sudoku rules.
 
-How to Run
+#How to Run
 
 Prerequisites
 
@@ -26,13 +26,13 @@ A C++ compiler (e.g., g++ from GCC).
 
 A terminal or command-line environment.
 
-Compilation
+#Compilation
 
 Use the following command to compile the program:
 
 g++ -o sudoku_solver sudoku_solver.cpp
 
-Execution
+#Execution
 
 Run the compiled program with:
 
